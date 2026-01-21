@@ -6,12 +6,23 @@
 
 # Coloring the Euclidean Grid and Affine Planes
 
-This repository accompanies a research paper on exact colorings of finite grids, focusing on the Euclidean grid $[n]^2$ and the affine plane $AG(2,q)$. The included Jupyter notebooks implement efficient algorithms to find colorings that avoid monochromatic collinear triples, and explore the structure of maximal arcs and their colorings.
+This repository accompanies a research paper on exact colorings of finite geometries that avoid monochromatic collinear triples. The paper focuses on the Euclidean grid $[n]^2$ and the affine plane $AG(2,q)$. The included Jupyter notebooks implement efficient algorithms to find such colorings, and explore the structure of maximal arcs.
 
 ## Notebooks
 
+
+### clean_projective.ipynb
+Implements a backtracking coloring solver for the affine plane $AG(2,q)$ using the Minimum Remaining Values (MRV) heuristic and forward checking.
+
+It implements:
+
+- Construction of the projective and affine planes, and collinearity relations.
+- Exact coloring algorithms for $AG(2,q)$.
+- Search for minimal colorings and maximal arcs in the affine setting.
+- Visualization and result export.
+
 ### clean_euclidean.ipynb
-Implements a backtracking coloring solver for the Euclidean grid $[n]^2$ using the Minimum Remaining Values (MRV) heuristic and forward checking. The notebook:
+This notebook is similar to the previous one, but it is focused on colorings of the Euclidean grid $[n]^2$. The notebook:
 
 - Defines the grid and collinearity test (integer determinant).
 - Searches for the minimal number of colors needed to avoid monochromatic collinear triples for $n=1$ to $n=9$.
@@ -19,15 +30,6 @@ Implements a backtracking coloring solver for the Euclidean grid $[n]^2$ using t
 - Finds collections of pairwise disjoint maximal arcs.
 - Visualizes colorings and arcs using matplotlib.
 - Saves results to text files in the `results_euclidean/` directory.
-
-
-### clean_projective.ipynb
-Studies colorings for the affine plane $AG(2,q)$, with supporting code for the projective plane $PG(2,q)$. It implements:
-
-- Construction of the affine and projective planes, and collinearity relations.
-- Exact coloring algorithms for $AG(2,q)$.
-- Search for minimal colorings and maximal arcs in the affine setting.
-- Visualization and result export.
 
 ## Dependencies
 
