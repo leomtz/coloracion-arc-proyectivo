@@ -20,6 +20,7 @@ It implements:
 - Exact coloring algorithms for $AG(2,q)$.
 - Search for minimal colorings and maximal arcs in the affine setting.
 - Visualization and result export.
+- Saves results to text files in the `results_projective/` directory.
 
 ### clean_euclidean.ipynb
 This notebook is similar to the previous one, but it is focused on colorings of the Euclidean grid $[n]^2$. The notebook:
