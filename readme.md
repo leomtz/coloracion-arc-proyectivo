@@ -30,7 +30,7 @@ This notebook is similar to the previous one, but it is focused on colorings of 
 - Explores the construction of maximal general position sets (arcs) with recursive algorithms.
 - Finds collections of pairwise disjoint maximal arcs.
 - Visualizes colorings and arcs using matplotlib.
-- Saves results to text files in the `results_euclidean/` directory.
+- Storage of results to text files in the `results_euclidean/` directory.
 
 ## Dependencies
 
