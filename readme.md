@@ -1,6 +1,12 @@
-# Coloring the Euclidean and Projective Grids
+## Authors
 
-This repository accompanies a research paper on exact colorings of finite grids, focusing on the Euclidean grid $[n]^2$ and the projective plane $PG(2,q)$. The included Jupyter notebooks implement efficient algorithms to find colorings that avoid monochromatic collinear triples, and explore the structure of maximal arcs and their colorings.
+**Leonardo Martínez-Sandoval** ([Google Scholar](https://scholar.google.es/citations?hl=es&pli=1&user=hUjL-FwAAAAJ))  
+**Gabriela Araujo-Pardo** ([Google Scholar](https://scholar.google.es/citations?user=btyNjrYAAAAJ&hl=es))
+
+
+# Coloring the Euclidean Grid and Affine Planes
+
+This repository accompanies a research paper on exact colorings of finite grids, focusing on the Euclidean grid $[n]^2$ and the affine plane $AG(2,q)$. The included Jupyter notebooks implement efficient algorithms to find colorings that avoid monochromatic collinear triples, and explore the structure of maximal arcs and their colorings.
 
 ## Notebooks
 
@@ -14,12 +20,13 @@ Implements a backtracking coloring solver for the Euclidean grid $[n]^2$ using t
 - Visualizes colorings and arcs using matplotlib.
 - Saves results to text files in the `results_euclidean/` directory.
 
-### clean_projective.ipynb
-Analogous to the Euclidean notebook, but for the projective plane $PG(2,q)$. It implements:
 
-- Construction of the projective plane and collinearity relations.
-- Exact coloring algorithms for $PG(2,q)$.
-- Search for minimal colorings and maximal arcs.
+### clean_projective.ipynb
+Studies colorings for the affine plane $AG(2,q)$, with supporting code for the projective plane $PG(2,q)$. It implements:
+
+- Construction of the affine and projective planes, and collinearity relations.
+- Exact coloring algorithms for $AG(2,q)$.
+- Search for minimal colorings and maximal arcs in the affine setting.
 - Visualization and result export.
 
 ## Dependencies
@@ -40,13 +47,15 @@ Below is a sample visualization of a coloring (see `output.png`):
 
 If you use this code or results in your work, please cite the accompanying paper. A BibTeX entry will be provided here:
 
+
 ```bibtex
-@article{YOUR_CITATION_KEY,
-	title={Title of the paper},
-	author={Author, A. and Collaborator, B.},
-	journal={Journal Name},
+@article{martinez2026arcchromatic,
+	title={The arc chromatic number for Galois projective planes, affine planes and Euclidean grids},
+	author={Araujo-Pardo, Gabriela and Martínez-Sandoval, Leonardo},
+	journal={arXiv preprint},
 	year={2026},
-	note={Preprint or accepted version}
+	eprint={TBD},
+	url={TBD}
 }
 ```
 
