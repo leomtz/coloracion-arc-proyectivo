@@ -48,8 +48,9 @@ Below is a sample visualization of a coloring (see `output.png`):
 
 ## How to Cite
 
-If you use this code or results in your work, please cite the accompanying paper. A BibTeX entry will be provided here:
+If you use this code or results in your work, please cite this repository or the theoretical paper.
 
+BibTeX entry for the paper.
 
 ```bibtex
 @article{martinez2026arcchromatic,
@@ -59,6 +60,19 @@ If you use this code or results in your work, please cite the accompanying paper
 	year={2026},
 	eprint={TBD},
 	url={TBD}
+}
+```
+
+BibTeX entry for the code.	
+
+```bibtex
+@misc{Martinez2026,
+  author = {Martínez-Sandoval, Leonardo and Araujo-Pardo, Gabriela},
+  title = {Coloring the Euclidean Grid and Affine Planes},
+  year = {2026},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/leomtz/coloracion-arc-proyectivo}}
 }
 ```
 
