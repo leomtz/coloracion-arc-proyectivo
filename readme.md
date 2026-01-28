@@ -56,10 +56,10 @@ BibTeX entry for the paper.
 @article{martinez2026arcchromatic,
 	title={The arc chromatic number for Galois projective planes, affine planes and Euclidean grids},
 	author={Araujo-Pardo, Gabriela and Martínez-Sandoval, Leonardo},
-	journal={arXiv preprint},
+	journal={arXiv preprint arXiv:2601.19043},
 	year={2026},
-	eprint={TBD},
-	url={TBD}
+	eprint={https://arxiv.org/abs/2601.19043},
+	url={https://arxiv.org/abs/2601.19043}
 }
 ```
 
