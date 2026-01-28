@@ -6,7 +6,7 @@
 
 # Coloring the Euclidean Grid and Affine Planes
 
-This repository accompanies a research paper on exact colorings of finite geometries that avoid monochromatic collinear triples. The paper focuses on the Euclidean grid $[n]^2$ and the affine plane $AG(2,q)$. The included Jupyter notebooks implement efficient algorithms to find such colorings, and explore the structure of maximal arcs.
+This repository accompanies a research paper on exact colorings of finite geometries that avoid monochromatic collinear triples. The paper focuses on the Euclidean grid $[n]^2$ and the affine plane $AG(2,q)$. The included Jupyter notebooks implement efficient algorithms to find such colorings and explore the structure of maximal arcs. You can find the preprint of the paper on [arXiv](https://arxiv.org/abs/2601.19043).
 
 ## Notebooks
 
